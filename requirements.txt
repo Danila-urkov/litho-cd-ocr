@@ -1,0 +1,9 @@
+# runtime (same set as the original Colab notebook)
+easyocr
+opencv-python-headless
+pandas
+openpyxl
+
+# demo data generator
+Pillow
+numpy
