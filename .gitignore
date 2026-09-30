@@ -1,0 +1,29 @@
+# OAuth / secrets — NEVER commit
+client_secret*.json
+token.json
+credentials.json
+*.pem
+.env
+
+# real metrology data — NEVER commit employer data
+*.bmp
+*.tif
+*.tiff
+real_data/
+
+# generated outputs (demo included — regenerate with make_demo_data.py)
+*.xlsx
+*.csv
+demo/
+Backup/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# os
+.DS_Store
+Thumbs.db
